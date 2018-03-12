@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="spOcultos" min="-2" max="-2" attributes="0"/>
+                  <Component id="spVisibles" min="-2" max="-2" attributes="0"/>
+                  <Component id="LabelPending" min="-2" max="-2" attributes="0"/>
+                  <Component id="nvisibles" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="nocultos" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="172" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="LabelPending" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="nvisibles" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="nocultos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="spVisibles" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="spOcultos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="LabelPending">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mal rollo pendiente :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nvisibles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nVisibles:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nocultos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nHidden:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spVisibles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="specificV:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spOcultos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="specificH:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
